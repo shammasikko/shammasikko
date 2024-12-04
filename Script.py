@@ -254,9 +254,9 @@ Nᴀᴍᴇ - {}"""
 📢 Group : 🕹
  @CinemaKandalo
 📢 Channel :🕹 
-@CinemaKandaloLinks
+@trollgaragemovieparadise
 📢 Channel :🕹
- @CKUpdates1TG""" 
+ @trollgarage2255""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
