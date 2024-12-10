@@ -569,10 +569,10 @@ async def filter_episodes_cb_handler(client: Client, query: CallbackQuery):
             btn.append(
                 [InlineKeyboardButton("Pages", callback_data="pages"), InlineKeyboardButton(text=f"1/{math.ceil(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="Next>>",callback_data=f"next_{req}_{key}_{offset}")]
             )
-    else:
-        btn.append(
-            [InlineKeyboardButton(text="𝐍𝐎 𝐌𝐎𝐑𝐄 𝐏𝐀𝐆𝐄𝐒 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄",callback_data="pages")]
-        )
+   # else:
+       # btn.append(
+           # [InlineKeyboardButton(text="𝐍𝐎 𝐌𝐎𝐑𝐄 𝐏𝐀𝐆𝐄𝐒 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄",callback_data="pages")]
+       # )
     if lang != "homepage":
         req = query.from_user.id
         offset = 0
