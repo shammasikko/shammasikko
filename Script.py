@@ -248,15 +248,15 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<code>{file_name}</code>
+    CAPTION = """<b>{file_name}
 
 ✯ ━━━━━━ ✧ ━━━━━ ✯
 📢 Group : 🕹
  @CinemaKandalo
 📢 Channel :🕹 
-@trollgaragemovieparadise
+@CinemaKandaloOfficial
 📢 Channel :🕹
- @trollgarage2255""" 
+ @CinemaKandaloLinks</b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
